@@ -251,4 +251,16 @@ footer nav a {
         width: 30%;
         height: 225px;
     }
+    .bottom-content {
+        display: flex;
+        margin: 0 2% 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .bottom-content .text-container {
+        padding-right: 4%;
+        width: 45%;
+        padding-top: 2%;
+    }
+    
 }
