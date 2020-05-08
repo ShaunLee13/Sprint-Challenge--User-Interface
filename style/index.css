@@ -21,7 +21,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border:1px solid gray;
+    font-weight: 500;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -72,8 +74,31 @@ p {
 }
 
 .header{
-    background-color: aquamarine;
     display: flex;
+    flex-wrap: wrap;
+    padding:2% 0;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image-container{
+    width: 20%;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+}
+
+.splash{
+    margin: 4% 0 0;
 }
 
 .top-content {
@@ -115,6 +140,19 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* box1: teal
+box2: gold
+box3: cadetblue
+box4: coral
+box5: crimson
+box6: forestgreen
+box7: darkorchid
+box8: hotpink
+box9: indigo
+box10: dodgerblue */
+.box1{
+    background-color: teal;
 }
 
 .bottom-content {
